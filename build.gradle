@@ -1,0 +1,25 @@
+buildscript {
+
+    repositories {
+
+        // mavenCentral() 该仓库中没有gradle:2.2.3
+
+        jcenter()
+
+    }
+
+    dependencies {
+
+        classpath 'com.android.tools.build:gradle:2.2.3'
+
+    }
+
+}
+
+ext {
+
+    compileSdkVersion = 19
+
+    buildToolsVersion = "23.0.1"
+
+}
